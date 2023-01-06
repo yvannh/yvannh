@@ -1,4 +1,6 @@
-### Hi there 👋
+### ePortfolio Yvann HUBERT 👋
+
+Je suis Yvann HUBERT, un étudiant en deuxième année d'informatique à l'IUT de Paris
 
 <!--
 **yvannh/yvannh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
