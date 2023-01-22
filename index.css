@@ -58,6 +58,14 @@ body {
 	color: white;
 }
 
+.github-img {
+	width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    object-fit: scale-down;
+    vertical-align: sub;
+}
+
 #contenu div img.img-logo {
     width:  300px;
     height: 200px;
