@@ -2,22 +2,85 @@ body {
 	margin-left: auto;
     margin-right: auto;
     width: 80%;
-    border: 1px solid black;
+    background-color: #0F0F0F;
+    color: white;
+    font-family: Arial;
 }
 
 #profil {
 	text-align: center;
 }
 
-#contenu {
-	display: flex;
-	padding-top: 80px;
+#reseaux {
+	margin-top: 40px;
 }
 
-#contenu div {
+#reseaux img {
+	margin: 10px;
+	width:  50px;
+    height: 50px;
+}
+
+#contenu {
+	padding-top: 20px;
+}
+
+#st-div, #sd-div {
+	display: flex;
+    text-align: center;
+}
+
+.dcontenu {
+	margin-top: 40px;
 	margin-left: auto;
     margin-right: auto;
+    width: 40%;
+}
+
+.border-div {
+	border: 4px solid #272727;
+	border-radius: 30px;
+}
+
+.git-div {
+	background-color: #222222;
 	width: 30%;
-	border: 1px solid red;
-	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.git {
+	text-decoration: none;
+	color: white;
+}
+
+#contenu div img.img-logo {
+    width:  300px;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+.icons {
+	margin-bottom: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.icons img {
+	width:  30px;
+    height: 30px;
+    object-fit: scale-down;
+    background-color: #222222;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#contenu div p {
+	margin-left: auto;
+    margin-right: auto;
+	width: 90%;
 }
