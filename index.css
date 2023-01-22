@@ -1,0 +1,23 @@
+body {
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 1px solid black;
+}
+
+#profil {
+	text-align: center;
+}
+
+#contenu {
+	display: flex;
+	padding-top: 80px;
+}
+
+#contenu div {
+	margin-left: auto;
+    margin-right: auto;
+	width: 30%;
+	border: 1px solid red;
+	text-align: center;
+}
