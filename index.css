@@ -21,8 +21,25 @@ body {
     height: 50px;
 }
 
+#separator {
+	width: 60%;
+}
+
+#h1-project {
+	margin-top: 50px;
+	text-align: center;
+}
+
 #contenu {
 	padding-top: 20px;
+}
+
+.img-div-project {
+	width:  300px;
+    height: 200px;
+    object-fit: scale-down;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #st-div, #sd-div {
@@ -67,9 +84,8 @@ body {
 }
 
 #contenu div img.img-logo {
-    width:  300px;
-    height: 200px;
-    object-fit: scale-down;
+    max-width:100%;
+	max-height:100%;
 }
 
 .icons {
@@ -91,4 +107,40 @@ body {
 	margin-left: auto;
     margin-right: auto;
 	width: 90%;
+}
+
+@media screen and (max-width: 1050px) {
+	body {
+		width: 100%;
+	}
+
+	#separator {
+		width: 60%;
+	}
+
+	#st-div, #sd-div {
+		display: block;
+	    text-align: center;
+	}
+
+	.dcontenu {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#separator {
+		width: 80%;
+	}
+
+	.dcontenu {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.img-div-project {
+		width:  200px;
+    	height: 150px;
+	}
 }
